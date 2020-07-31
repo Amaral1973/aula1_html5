@@ -1,6 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
     <head>
+        <link rel="stylesheet" href="estilo.css"/>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+        <meta name="description" content="Página realizada no estudo do HTML5."/>
+        <meta name="keywords" content="feijão, html3, listas, tabelas, formulários"/>
+        <meta name="author" content="TDS - SENAI"/>
+        <meta name="robots" content="noindex, nofollow"/>
         <meta charset="UTF-8"/>
         <title>Pé de Feijão SA</title>
     </head>
@@ -33,6 +39,22 @@
                                 <input type="password" name="senha" placeholder="Digite a sua senha"/></p>
                                 <p><label>E-mail</label>
                                     <input type="email" name="email" required placeholder="Digite o seu e-mail"/></p>
+                                    <p><label>Data</label>
+                                        <input type="date" name="Data"/></p>
+                                        <p><label>Conhecimento</label>
+                                            <input type="radio" name="html" value="html"/>HTML
+                                            <input type="radio" name="php" value="php"/>php
+                                            <input type="radio" name="python" value="python"/>Python</p>
+                                            <p><label>Escolha sua marca</label>
+                                                <select name="marca">
+                                                    <option value="" disabled selected hidden>Por escolha uma marca</option>
+                                                    <option value="Dell">Dell</option>
+                                                    <option value="HP">HP</option>
+                                                    <option value="Alienware">Alienware</option>
+                                                    <option value="TDS - SENAI">TDS - SENAI</option>
+                                                </select></p>
+                                                <p><label>Escreva sua mensagem</label>
+                                                    <textarea name="mensagem" rows="5" cols="30"></textarea></p>
                             <p><input type="reset" value="Limpar Campos" />
                                 <input type="submit" value="Enviar Contato"/></p>
                         </fieldset>
